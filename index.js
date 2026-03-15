@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   try {
     res.send({
       success: true,
-      message: "Running!!",
+      message: "Server is running",
     });
   } catch (error) {
     console.error("Error found", error);
